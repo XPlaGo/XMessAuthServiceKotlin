@@ -1,0 +1,7 @@
+spring:
+  config:
+    # import: optional:configserver:http://xmess-config-service.jelastic.regruhosting.ru
+    import: optional:configserver:http://10.50.12.52:8080
+  application:
+    name: xmess-auth-service
+
